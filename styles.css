@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Roboto&display=swap");
+
+body {
+  background-color: #d3bebe;
+  /* color: #270a00; */
+
+  /* font-size: 16px;
+  font-weight: normal;
+  font-family: "Times New Roman", Times, serif; */
+
+  font: normal 16px "Island Moments", cursive;
+  margin: 100px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+a:visited {
+  color: darkgreen;
+}
+
+.avatar {
+  width: 350px;
+  border-radius: 35px;
+  box-shadow: -16px 20px 17px 8px rgba(0, 0, 0, 25);
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.info p {
+  color: #222224;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  /* text-decoration: underline; */
+  /* text-transform: uppercase; */
+  /* letter-spacing: 3px; */
+  /* word-spacing: 20px; */
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+/* .social { */
+/* background: green; */
+/* padding: 15px; */
+/* padding: 15px 40px; */
+/* padding: 15px 20px 25px 30px; */
+/* padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  margin: 20px;
+
+  border: 5px solid red;
+  border-bottom-style: dotted;
+  border-top-width: 15px;
+  border-right-color: blue;
+} */
+
+/* .box-model > div {
+  float: left;
+  background: black;
+  height: 200px;
+  width: 25%;
+  border: 4px solid red;
+  box-sizing: border-box;
+} */
+
+.bg-yellow {
+  background: #fff9dc;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+.bg-red {
+  background: #ffe5e5;
+}
+
+.card {
+  padding: 15px 30px;
+  /* background: red; */
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.card h2 {
+  margin-bottom: 20px;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.list {
+  padding: 0 20px;
+  /* list-style: none; */
+}
+.list li {
+  color: #86898f;
+  margin-bottom: 8px;
+  /* border-bottom: 3px solid grey; */
+}
+
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
+.table {
+  width: 100%;
+  font-size: 30px;
+  /* font-weight: bold; */
+}
+.table td {
+  padding-bottom: 20px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #027ffc;
+}
+/* .table tr:nth-child(even) {
+  background: aqua;
+}
+.table tr:nth-child(odd) {
+  background: rgb(43, 170, 4);
+} */
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+.link-list li {
+  margin-bottom: 10 px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(46, 44, 44);
+}
+
+.contact {
+}
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgb(151, 138, 138);
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.row > .form-group {
+  width: 50%;
+  /* margin-right: 20px; */
+}
+.row > .form-group:first-child {
+  margin-right: 20px;
+}
+
+.btn {
+  background: #111;
+  color: #fff9dc;
+  padding: 15px 20px;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+
+/* position */
+
+.position {
+  position: relative;
+  border: 4px solid black;
+  margin-top: 40px;
+  padding: 20px;
+  height: 300px;
+}
+
+.box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background: rgb(243, 86, 86);
+}
